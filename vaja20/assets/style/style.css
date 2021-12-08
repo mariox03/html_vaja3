@@ -1,0 +1,32 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+h1 {
+    color: red;
+}
+h2 {
+    color: maroon;
+}
+hr {
+    border-color: black;
+}
+img {
+    width: 300px;
+    height: 400px;
+}
+
+.redBorder {
+    border: 5px solid red;
+}
+.rezultat {
+    width: 800px;
+    height: 400px;
+    background-color: orange;
+    border: 10px solid yellow;
+    margin: auto;
+
+}
+.center {
+    margin-top: 300px;
+}

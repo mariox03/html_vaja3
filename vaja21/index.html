@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vaja 21</title>
+	<script src="js/ukazi.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/stlye.css">
+</head>
+<body>
+	<div class="polje">
+		<h1>Zaporedje</h1>
+		<form>
+			<input type="number" id="spodnjameja" placeholder="Vpiši spodnjo mejo zaporedje">
+			<input type="number" id="zgornjameja" placeholder="Vpiši zgornjo mejo zaporedje">
+			<input type="number" id="deljenec" placeholder="Vpiši število za deljenje">
+			<hr>
+			<div id="gumb" onclick="Deljenje()">PRIKAŽI ZAPOREDNJE Z OZNAČENIMI ŠTEVILI</div>
+		</form>
+	</div>
+	<div id="izpis"></div>
+	<br>
+	<div class="polje">
+		<h1>Preračunavanje števil v obliki poštevanke</h1>
+		<form>
+			<input type="number" id="vrstice" placeholder="vpiši št. vrstic"> <hr>
+			<input type="number" id="stolpci" placeholder="vpiši št. stolpcev"> <hr>
+			<input type="number" id="deljenec2" placeholder="vpiši št. za deljenje"><hr>
+			<div id="gumb" onclick="PrikaziTabelo()">PRIKAŽI TABELO</div>
+		</form>	
+	</div>
+	<div id="izpisiTabelo"></div>
+</body>
+</html>
